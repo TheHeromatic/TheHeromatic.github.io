@@ -31,4 +31,11 @@
             class="button0" onclick="location.href='index.html'">Homescreen
         </button>
     </div>
+    <script>
+        document.addEventListener("keydown", e => {
+   if (e.key.toLowerCase() === "escape") {
+window.location.href = "startgame.html"; e.preventDefault();
+} 
+});   
+  </script>
 </body>

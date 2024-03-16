@@ -1,26 +1,32 @@
 <head>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="gameStyle.css" />
+    <link rel="stylesheet" type="text/css" href="gameObjects.css" />
     <script src="index.js"></script>
 </head>
 <body class="bodyDark">
+     
+     <!--Buttons, Feld, Cursor-->
+
     <div class="position6">
         <button
            onclick="location.href='index.html'" class="button0">Leave Game
         </button>
     </div>
     <div 
-        class="field" onmouseout="borderCollision()">
+        class="field">
+        <div class="entryZone"></div>
+        <div class="winningZone" onmousemove="location.href='winning.html'"></div>
     </div>
-
-      <!-- <div class="fieldBorder">
-    </div> -->
-
+    
     <div class="position5">
+        
         <button
-           onclick="location.href='gameSettings.html'" class="button1">Settings
+          class="button1">Settings (esc)
         </button>
     </div>
+
+    <!--Borders-->
 
     <div  
         class="borderLeft" onmousemove="location.href='gameOver.html'">
@@ -34,4 +40,59 @@
     <div
         class="borderDown" onmousemove="location.href='gameOver.html'">
     </div>
+
+    <!--Hindernisse-->
+
+     <div
+          class="obstacle0" onmousemove="location.href='gameOver.html'">
+     </div>
+     <div
+          class="obstacle1" onmousemove="location.href='gameOver.html'">
+     </div>
+     <div
+           class="obstacle2" onmousemove="location.href='gameOver.html'">
+     </div>
+     <div
+          class="obstacle3" onmousemove="location.href='gameOver.html'">
+     </div>
+     <div
+          class="obstacle4" onmousemove="location.href='gameOver.html'">
+     </div>
+     <div
+          class="obstacle5" onmousemove="location.href='gameOver.html'">
+     </div>
+     <div
+          class="obstacle6" onmousemove="location.href='gameOver.html'">
+     </div>
+     <div
+          class="obstacle7" onmousemove="location.href='gameOver.html'">
+     </div>
+     <div
+          class="obstacle8" onmousemove="location.href='gameOver.html'">
+     </div>
+     <div
+          class="obstacle9" onmousemove="location.href='gameOver.html'">
+     </div>
+     <div 
+          class="obstacle10" onmousemove="location.href='gameOver.html'">
+     </div>
+     <div
+          class="obstacle11" onmousemove="location.href='gameOver.html'">
+     </div>
+     <div
+          class="obstacle12" onmousemove="location.href='gameOver.html'">
+     </div>
+     </div>
+     <script>
+         document.addEventListener("keydown", e => {
+    if (e.key.toLowerCase() === "escape") {
+window.location.href = "gameSettings.html"; e.preventDefault();
+} 
+});   
+document.addEventListener("keydown", e => {
+   if (e.key.toLowerCase() === "enter") {
+window.location.href = "index.html"; e.preventDefault();
+} 
+});   
+   </script>
 </body>

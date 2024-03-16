@@ -1,0 +1,194 @@
+.obstacle0{
+    position: absolute;
+    margin: 0;
+    padding: 30 200;
+    background-color: rgb(84, 69, 167);
+    top: 20%;
+    left:42%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);   
+    border: solid;
+    border-width: 2px;
+    z-index: 9;
+
+}
+
+.obstacle1{
+    position: absolute;
+    margin: 0;
+    padding: 30 150;
+    background-color: rgb(84, 69, 167);
+    top: 17%;
+    left:60%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);   
+    border: solid;
+    border-width: 2px;
+    z-index: 9;
+
+}
+
+.obstacle2{
+    position: absolute;
+    margin: 0;
+    padding: 30 200;
+    background-color: rgb(84, 69, 167);
+    top: 28%;
+    left:52%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);   
+    border: solid;
+    border-width: 2px;
+    z-index: 9;
+
+}
+
+.obstacle3{
+    position: absolute;
+    margin: 0;
+    padding: 30 200;
+    background-color: rgb(84, 69, 167);
+    top: 36%;
+    left:42%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);   
+    border: solid;
+    border-width: 2px;
+    z-index: 9;
+
+}
+
+.obstacle4{
+    position: absolute;
+    margin: 0;
+    padding: 30 160;
+    background-color: rgb(84, 69, 167);
+    top: 36%;
+    left:60%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);   
+    border: solid;
+    border-width: 2px;
+    z-index: 9;
+
+}
+
+.obstacle5{
+    position: absolute;
+    margin: 0;
+    padding: 328 30;
+    background-color: rgb(84, 69, 167);
+    top: 63%;
+    left:48%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);   
+    border: solid;
+    border-width: 2px;
+    z-index: 9;
+
+}
+
+.obstacle6{
+    position: absolute;
+    margin: 0;
+    padding: 100 30;
+    background-color: rgb(84, 69, 167);
+    top: 46%;
+    left:55%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);   
+    border: solid;
+    border-width: 2px;
+    z-index: 9;
+
+}
+
+.obstacle7{
+    position: absolute;
+    margin: 0;
+    padding: 100 30;
+    background-color: rgb(84, 69, 167);
+    top: 66%;
+    left:55%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);   
+    border: solid;
+    border-width: 2px;
+    z-index: 9;
+
+}
+
+.obstacle8{
+    position: absolute;
+    margin: 0;
+    padding: 30 180;
+    background-color: rgb(84, 69, 167);
+    top: 63%;
+    left:56%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);   
+    border: solid;
+    border-width: 2px;
+    z-index: 9;
+
+}
+
+.obstacle9{
+    position: absolute;
+    margin: 0;
+    padding: 30 160;
+    background-color: rgb(84, 69, 167);
+    top: 80%;
+    left:60%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);   
+    border: solid;
+    border-width: 2px;
+    z-index: 9;
+
+}
+
+.obstacle10{
+    position: absolute;
+    margin: 0;
+    padding: 30 200;
+    background-color: rgb(84, 69, 167);
+    top: 20%;
+    left:42%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);   
+    border: solid;
+    border-width: 2px;
+    z-index: 9;
+
+}
+
+.obstacle11{
+    position: absolute;
+    margin: 0;
+    padding: 30 200;
+    background-color: rgb(84, 69, 167);
+    top: 20%;
+    left:42%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);   
+    border: solid;
+    border-width: 2px;
+    z-index: 9;
+
+}
+
+.obstacle12{
+    position: absolute;
+    margin: 0;
+    padding: 30 200;
+    background-color: rgb(84, 69, 167);
+    top: 20%;
+    left:42%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);   
+    border: solid;
+    border-width: 2px;
+    z-index: 9;
+
+}
